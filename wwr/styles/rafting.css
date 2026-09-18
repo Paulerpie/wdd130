@@ -96,6 +96,14 @@ h2 {
     border-radius: 4px;
 }
 
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
 .socialmedia a {
     text-decoration: none;
 }
