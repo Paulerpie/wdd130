@@ -310,3 +310,104 @@ form button:focus {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
 }
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+    margin: 16px;
+}
+
+.home-grid img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.home-grid p {
+    margin-bottom: 12px;
+}
+
+.cta {
+    padding: 24px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.cta h2 {
+    background-color: transparent;
+}
+
+.cta p {
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #ffffff;
+    color: var(--primary-color);
+}
+
+.trip {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 16px;
+    align-items: center;
+    margin: 16px;
+}
+
+.trip img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.trip h3 {
+    margin-bottom: 8px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.trip p {
+    margin-bottom: 8px;
+}
+
+table {
+    width: calc(100% - 32px);
+    margin: 16px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e6f4fa;
+}
